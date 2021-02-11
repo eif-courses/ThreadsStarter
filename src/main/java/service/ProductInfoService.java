@@ -23,7 +23,7 @@ public class ProductInfoService {
     productInfo.setList(productOptions);
 
     try {
-      Thread.sleep(11);
+      Thread.sleep(2000);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }

@@ -5,7 +5,7 @@ import domain.ProductRating;
 public class ProductRatingService {
   public ProductRating retrieveProductRating(String id){
     try {
-      Thread.sleep(11);
+      Thread.sleep(5000);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
